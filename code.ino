@@ -13,6 +13,7 @@ void loop () {
   //debug
   Serial.println("Waiting...");
   Serial.print("Values:");
+  Serial.println(" ");
   Serial.print(left);
   Serial.println(" ");
   Serial.print(right);
