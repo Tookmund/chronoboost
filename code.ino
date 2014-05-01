@@ -11,13 +11,13 @@ void setup () {
 
 void loop () {
   //debug
-  Serial.println("Waiting...");
   Serial.println("Values:");
   Serial.println(left);
   Serial.println(right);
   Serial.println(torso);
   
   //wait 5 seconds after being turned on
+  Serial.println("Waiting...");
   delay(5000);
   //move left wheel then right wheel 
   for (int i = 0; i < 12; i++) {
