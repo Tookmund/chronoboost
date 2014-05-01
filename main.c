@@ -1,9 +1,12 @@
+
+const int left = 10;
+const int right = 11;
+const int torso = 9;
+
 void setup () {
-  const int left = 10;
-  const int right = 11;
-  const int torso = 9;
-  pinMode(motor1, OUTPUT);
-  pinMOde(motor2, OUTPUT);
+  pinMode(left, OUTPUT);
+  pinMode(right, OUTPUT);
+  pinMode(torso, OUTPUT);
 }
 
 void loop () {
