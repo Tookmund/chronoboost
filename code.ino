@@ -1,6 +1,6 @@
-int left = 10;
-int right = 11;
-int torso = 9;
+int left = 9;
+int right = 10;
+int torso = 11;
 
 void setup () {
   pinMode(left, OUTPUT);
