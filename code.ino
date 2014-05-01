@@ -12,14 +12,11 @@ void setup () {
 void loop () {
   //debug
   Serial.println("Waiting...");
-  Serial.print("Values:");
-  Serial.println(" ");
-  Serial.print(left);
-  Serial.println(" ");
-  Serial.print(right);
-  Serial.println(" ");
-  Serial.print(torso);
-  Serial.println(" ");
+  Serial.println("Values:");
+  Serial.println(left);
+  Serial.println(right);
+  Serial.println(torso);
+  
   //wait 5 seconds after being turned on
   delay(5000);
   //move left wheel then right wheel 
