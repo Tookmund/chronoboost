@@ -6,12 +6,12 @@ void setup () {
   pinMode(left, OUTPUT);
   pinMode(right, OUTPUT);
   pinMode(torso, OUTPUT);
-  Serial.begin(2400);
+  Serial.begin(9600);
 }
 
 void loop () {
   //wait 5 seconds after being turned on
-  Serial.print("Waiting...");
+  Serial.println("Waiting...");
   delay(5000);
   //move left wheel then right wheel 
   for (int i = 0; i < 12; i++) {
