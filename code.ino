@@ -23,19 +23,19 @@ void loop () {
   for (int i = 0; i < 12; i++) {
     Serial.println("left");
     digitalWrite(left, HIGH);
-    delay(5000);
+    delay(500);
     digitalWrite(left, LOW);
     
     Serial.println("right");
     digitalWrite(right, HIGH);
-    delay(5000);
+    delay(500);
     digitalWrite(right, LOW);
   }
   //move forward and then rotate torso
   Serial.println("forward");
   digitalWrite(left, HIGH);
   digitalWrite(right, HIGH);
-  delay(1000);
+  delay(2000);
   digitalWrite(left, LOW);
   digitalWrite(right, LOW);
   
